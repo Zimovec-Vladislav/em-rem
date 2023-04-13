@@ -1,8 +1,12 @@
+html {
+    font-size: 15px;
+}
+
 body {
     margin: 0;
 
     font-family: Arial, sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     color: #121212;
 }
 
@@ -23,11 +27,17 @@ body {
 
 .btn {
     display: inline-block;
-    padding: 6px 12px;
+    padding: 0.4em 0.8em;
 
     background-color: #36b717;
+    border-radius: 0.4em;
+    box-shadow: 0 0 0.2em #5353e3;
 
-    font-size: 15px;
+    font-size: 2rem;
     color: #fff;
     text-decoration: none;
+}
+
+.btn-xl {
+    font-size: 1rem;
 }
